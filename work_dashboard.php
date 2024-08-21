@@ -198,7 +198,7 @@ function calculateMetrics($data) {
                     <?php $metrics = calculateMetrics($teamData[$memberId]); ?>
                     <div class="bg-white rounded-lg shadow-md p-6 my-6 text-center hover:-translate-y-1 hover:scale-105 duration-300" id="<?php echo $memberId; ?>">
                         <img src="<?php echo $memberId; ?>.png" alt="Profile Image" class="w-full rounded-full mb-4">
-                        <h3 class="text-xl font-semibold mb-2"><?php echo ucfirst(str_replace("_", " ", $memberId)); ?></h3>
+                        <h3 class="text-xl font-semibold mb-2"><?php echo ucwords(str_replace("_", " ", $memberId)); ?></h3>
                         <div class="text-gray-800 text-md px-4">
                             <ul >
                                 <li class="inline-block mx-4 mb-2 text-left">
