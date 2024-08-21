@@ -5,9 +5,6 @@ It helps track your contributions and performance in an organization. Create and
 To get started with the WorkLog Tracker, follow these steps:
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/WorkLog-tracker.git
-   ```
 
 2. **Upload to Hosting Server**:
    Upload the cloned repository to your hosting server.
@@ -34,9 +31,19 @@ To get started with the WorkLog Tracker, follow these steps:
 2. **Data Processing**:
    - Metrics such as total tokens, weekly average, and monthly average are calculated based on the work records.
    - Weekly and monthly averages are computed only if the relevant time periods (7 days for weekly average and 30 days for monthly average) have passed to ensure accurate results.
+   - Detailed view of the timeline, displays recent updates & work logs
 
 3. **Display Data**:
-   The processed data is sent to the front-end, where it is displayed in the dashboard. The `showDetails` JavaScript function dynamically updates the dashboard with the selected team member's work details.
+   The processed data is sent to the front-end, where it is displayed in the `dashboard`. The `showDetails` JavaScript function dynamically updates the dashboard with the selected team member's work details.
+
+
+<br/>
+
+
+![image](https://github.com/user-attachments/assets/e6bc4ac9-7ca1-4e82-8faf-c0ad457d28e6)
+
+<br/>
+
 
 ## Approach
 
@@ -51,13 +58,24 @@ To get started with the WorkLog Tracker, follow these steps:
   Auth key e.g 'employee_name_rsz8739tx2'
 * To produce a new auth key go to the `WORK_RECORD_DB` folder and create a `.CSV` file with the auth key as the name of the file.
 
-## Authentication Key
-
-To ensure secure access to work records, each CSV file is linked to a unique authentication key. Users must provide the correct key to log their data. No auth key is required when accessing the dashboard.
-
----
-
-Feel free to adjust any section based on additional specifics or preferences you might have!
+* Each CSV file is linked to a unique authentication key. Users must provide the correct key to log their data. No auth key is required when accessing the dashboard.
 
 
-![image](https://github.com/user-attachments/assets/e6bc4ac9-7ca1-4e82-8faf-c0ad457d28e6)
+<br/>
+
+![image](https://github.com/user-attachments/assets/e639e7dd-c326-4cd9-a04d-1c92f727c6ee)
+
+<br/>
+
+
+**Example of Dashboard use case**
+
+<br/>
+
+## Reporting Issues & Contributions
+Feel free to report issues and contribute to this repository
+
+## License
+Copyright (c) 2024 Abhijeet Kumar All rights reserved.
+
+Licensed under the MIT License.
