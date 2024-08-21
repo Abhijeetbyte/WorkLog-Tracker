@@ -38,7 +38,7 @@ $teamMembers = [
 "nexus_prime" => "nexus_prime_res25R5vt.csv",
 "echo_volt" => "echo_volt_res74T6qz.csv",
 "vortex_blaze" => "vortex_blaze_res88M2kq.csv",
-"orion_flux => "orion_flux_res39L7wp.csv"
+"orion_flux" => "orion_flux_res39L7wp.csv"
     
 ];
 
