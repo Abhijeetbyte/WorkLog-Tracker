@@ -35,10 +35,10 @@ $csvDirectory = "WORK_RECORD_DB";
 
 // Mapping of team member HTML card IDs to their respective CSV files
 $teamMembers = [
-"nexus_prime" => "nexus_prime_res25R5vt.csv",
-"echo_volt" => "echo_volt_res74T6qz.csv",
-"vortex_blaze" => "vortex_blaze_res88M2kq.csv",
-"orion_flux" => "orion_flux_res39L7wp.csv"
+"nexus_prime" => "nexus_prime_rsz2546qv1.csv",
+"echo_volt" => "echo_volt_rsz8739tx2.csv",
+"vortex_blaze" => "vortex_blaze_rsz9145yl8.csv",
+"orion_flux" => "orion_flux_rsz6328mw4.csv"
     
 ];
 
@@ -197,7 +197,7 @@ function calculateMetrics($data) {
                 <?php foreach ($teamMembers as $memberId => $csvFile): ?>
                     <?php $metrics = calculateMetrics($teamData[$memberId]); ?>
                     <div class="bg-white rounded-lg shadow-md p-6 my-6 text-center hover:-translate-y-1 hover:scale-105 duration-300" id="<?php echo $memberId; ?>">
-                        <img src="<?php echo $memberId; ?>.png" alt="Team Member" class="w-full rounded-full mb-4">
+                        <img src="<?php echo $memberId; ?>.png" alt="Profile Image" class="w-full rounded-full mb-4">
                         <h3 class="text-xl font-semibold mb-2"><?php echo ucfirst(str_replace("_", " ", $memberId)); ?></h3>
                         <div class="text-gray-800 text-md px-4">
                             <ul >
